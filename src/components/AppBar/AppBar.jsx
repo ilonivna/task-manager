@@ -1,3 +1,5 @@
+import { StatusFilter } from "../StatusFilter/StatusFilter";
+import { TaskCounter } from "../TaskCounter/TaskCounter";
 
 
 export const AppBar = () => {
@@ -5,8 +7,13 @@ export const AppBar = () => {
         <header>
             <section>
                 <h2>Tasks</h2>
+                <TaskCounter/>
             </section>
-            <section>Filter by status</section>
+
+            <section>
+                <h2>Filter by status</h2>
+                <StatusFilter/>
+                </section>
         </header>
     )
 }

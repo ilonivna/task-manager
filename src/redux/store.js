@@ -1,18 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { tasksReducer } from "./tasksSlice";
+import { filtersReducer } from "./filtersSlice";
 
-const initialState = {
-  tasks: {
-    items: [],
-  },
-  filters: {
-    status: "all",
-  },
-};
-
-const rootReducer = (state, action) => {
-  return state;
-};
 
 export const store = configureStore({
-  reducer: rootReducer,
+  reducer: {
+    tasks: tasksReducer,
+    filters: filtersReducer,
+  }
 });

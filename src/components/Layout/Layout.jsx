@@ -1,4 +1,4 @@
-import css from "./Layout.modules.css";
+import css from "./Layout.module.css";
 
 export const Layout = ({ children }) => {
     return (

@@ -12,14 +12,14 @@ export const Task = ({ task }) => {
         dispatch(deleteTask(task.id))};
 
     const handleToggle = () => {
-        dispatch(toggleCompleted(task.id))
+        dispatch(toggleCompleted(task))
     }
 
     return (
-        <div>
+        <div className={css.container}>
             <input type="checkbox" className={css.checkbox} onChange={handleToggle} checked={task.completed}/>
-            <p>{task.text}</p>
-            <button type="button" onClick={handleDelete}>
+            <p className={css.text}>{task.text}</p>
+            <button type="button" onClick={handleDelete} className={css.btn}>
                 <MdDeleteForever size="24"/>
             </button>
         </div>

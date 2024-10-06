@@ -7,13 +7,14 @@ export const TaskList = () => {
    const tasks = useSelector(selectVisibleTasks);
 
     return (
-        <div>
-            <h4>Your tasks list</h4>
-        <ul>
+        <div className={css.container}>
+        <h4>Your tasks list</h4>
+        <ul className={css.list}>
             {tasks.map((task) => (
                 <li className={css.listItem} key={task.id}>
                     <Task task={task} />
                 </li>))}
-        </ul></div>
+        </ul>
+        </div>
     );
 };

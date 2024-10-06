@@ -9,10 +9,14 @@ export const TaskForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const form = e.target;
-
-        dispatch(addTask(form.elements.text.value));
-
-        form.reset();
+        const text = form.elements.text.value;
+        if (text !== "") {
+            dispatch(addTask(text));
+            form.reset();
+            return;
+        }
+        alert('Task text cannot be empty! Please, type something')
+        
     }
 
     return (

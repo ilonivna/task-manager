@@ -13,19 +13,19 @@ export default function App() {
   const isLoading = useSelector(selectIsLoading);
   const error = useSelector(selectError);
 
-  useEffect(() => {
-    dispatch(fetchTasks());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(fetchTasks());
+  // }, [dispatch]);
 
 
   return (
     <Layout>
       <AppBar />
       <TaskForm />
-      {isLoading && !error && <p>Fetching in progress...</p>}
+      {/* {isLoading && !error && <p>Fetching in progress...</p>} */}
       <TaskList/>
   </Layout>
 );
-}
+};
 
 

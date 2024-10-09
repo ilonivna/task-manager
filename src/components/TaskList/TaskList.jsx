@@ -1,6 +1,6 @@
 import { Task } from "../Task/Task";
 import { useSelector } from "react-redux";
-import { selectVisibleTasks } from "../../redux/tasks/selectors";
+import { selectVisibleTasks } from "../../redux/filter/selectors";
 import css from "./TaskList.module.css";
 
 export const TaskList = () => {
@@ -8,7 +8,7 @@ export const TaskList = () => {
 
     return (
         <div className={css.container}>
-        <h4>Your tasks list</h4>
+        <h4>Your task list</h4>
         <ul className={css.list}>
             {tasks.map((task) => (
                 <li className={css.listItem} key={task.id}>

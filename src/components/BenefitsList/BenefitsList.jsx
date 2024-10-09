@@ -1,4 +1,4 @@
-import css from "./BenefitList.module.css"
+import css from "./BenefitsList.module.css"
 
 export default function BenefitsList() {
 return (

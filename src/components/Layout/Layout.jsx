@@ -1,7 +1,12 @@
-import css from "./Layout.module.css";
+import { Suspense } from "react";
+import { AppBar } from "../AppBar/AppBar";
+
 
 export const Layout = ({ children }) => {
     return (
-        <main className={css.container}>{children}</main>
+    <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 16px' }}>
+      <AppBar />
+      <Suspense fallback={<b>Loading...</b>}>{children}</Suspense>
+    </div>
     );
 };

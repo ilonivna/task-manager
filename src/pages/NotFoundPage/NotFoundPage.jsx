@@ -6,7 +6,7 @@ export default function NotFoundPage() {
     return (
         <div>
         <DocumentTitle>Oops!..</DocumentTitle>
-        <h4>Sorry, requested page was not found! Please, return to <Link to="/">Home Page</Link></h4>
+        <b>Sorry, requested page was not found! Please, return to <Link to="/">Home Page</Link></b>
         <img src={nothingGif} alt="Sad Pikachu" />
         </div>
     )

@@ -4,7 +4,7 @@ import { selectIsLoggedIn } from '../../redux/auth/selectors';
 import css from './Navigation.module.css';
 
 export default function Navigation() {
- const isLoggedIn = useSelector(selectLoggedIn);
+ const isLoggedIn = useSelector(selectIsLoggedIn);
     return (
         <nav>
             <NavLink to="/">

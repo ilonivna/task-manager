@@ -1,8 +1,8 @@
 import css from "./Task.module.css";
 import { MdDeleteForever } from "react-icons/md";
 import { useDispatch } from "react-redux";
-import { deleteTask } from "../../redux/operations";
-import { toggleCompleted } from "../../redux/operations";
+import { deleteTask } from "../../redux/tasks/operations";
+import { toggleCompleted } from "../../redux/tasks/operations";
 
 
 export const Task = ({ task }) => {

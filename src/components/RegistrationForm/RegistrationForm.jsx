@@ -1,7 +1,7 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { useSelector, useDispatch } from "react-redux";
-// import { register } from "../../redux/auth/operations"; 
+import { useDispatch } from "react-redux";
+import { register } from "../../redux/auth/operations"; 
 import toast, { Toaster } from 'react-hot-toast';
 import { useId } from "react";
 import css from "./RegistrationForm.module.css";

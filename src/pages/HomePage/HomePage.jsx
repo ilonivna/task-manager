@@ -3,7 +3,7 @@ import { TaskForm } from "../../components/TaskForm/TaskForm";
 import { TaskList } from "../../components/TaskList/TaskList";
 import { Layout } from "../../components/Layout/Layout";
 import { AppBar } from "../../components/AppBar/AppBar";
-import { selectVisibleTasks } from "../../redux/selectors";
+import { selectVisibleTasks } from "../../redux/tasks/selectors";
 import { useSelector } from "react-redux";
 
 

@@ -1,6 +1,6 @@
 import { Task } from "../Task/Task";
 import { useSelector } from "react-redux";
-import { selectVisibleTasks } from "../../redux/selectors";
+import { selectVisibleTasks } from "../../redux/tasks/selectors";
 import css from "./TaskList.module.css";
 
 export const TaskList = () => {

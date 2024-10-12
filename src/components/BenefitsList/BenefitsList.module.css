@@ -1,0 +1,25 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.listItem {
+    width:  calc((100% - 36px)/2);
+    background-color: hsla(98, 70%, 74%, 0.163);
+    padding: 12px;
+    border-radius: 14px;
+    font-size: 1.13em;
+    box-shadow: 10px 10px 20px -6px rgba(34, 100, 40, 0.462), 12px 12px 24px -10px rgba(255, 255, 255, 0.329);
+ 
+}
+
+.listItemTitle {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.listItemText {
+    text-align: justify;
+}

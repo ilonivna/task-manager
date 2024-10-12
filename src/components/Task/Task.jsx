@@ -2,7 +2,8 @@ import css from "./Task.module.css";
 import { MdDeleteForever } from "react-icons/md";
 import { useDispatch } from "react-redux";
 import { deleteTask } from "../../redux/tasks/operations";
-import { toggleCompleted } from "../../redux/tasks/operations";
+ import { toggleCompleted } from "../../redux/tasks/operations";
+
 
 
 export const Task = ({ task }) => {
@@ -12,8 +13,8 @@ export const Task = ({ task }) => {
         dispatch(deleteTask(task.id))};
 
     const handleToggle = () => {
-        dispatch(toggleCompleted(task))
-    }
+    dispatch(toggleCompleted(task))
+     }
 
     return (
         <div className={css.container}>

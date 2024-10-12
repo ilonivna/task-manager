@@ -10,7 +10,7 @@ return (
                 </h4>
                 <p className={css.listItemText}>
                 If you’re anything like us, life comes at you fast and keeps coming. Sometimes it feels like you can’t catch a break. Leaping from one thing to another is not an efficient time management practice. The purpose of planners or task managers is to keep us on track with what needs to be done and when. 
-                Filling out a calendar for the week allows you to effectively budget time for work, family, and friends. It’s the ultimate personalized time management tool.
+                Filling out a calendar for the week allows you to effectively budget time for work, family, and friends.
                 </p>
             </li>
             <li className={css.listItem}>
@@ -36,7 +36,7 @@ return (
                 <p className={css.listItemText}>
                 When was the last time you took your dog to the vet for their annual checkup? If you don’t remember, it’s probably been too long. With your planner handy, you can easily reference things that you’ve long forgotten.
 
-                Your planner offers you a written record for scheduling important appointments, vaccinations, etc. It allows you to plan and prepare for what’s coming down the road when it comes to caring for you and your family members — those with two legs and those with four.
+                Your planner offers you a written record for scheduling important appointments, vaccinations, etc. It allows you to plan and prepare for what’s coming down the road.
                 </p>
             </li>
             <li className={css.listItem}>
@@ -45,15 +45,14 @@ return (
                 </h4>
                 <p className={css.listItemText}>
                 When we write down our daily, weekly, and monthly tasks and goals, we make them manageable. It’s much easier to move from one task to the next than it is to think about everything we need to do at once.
-
-                Without a planner to assist in the scheduling of tasks, we can feel overwhelmed. When we block out our time it is much easier to see how much we have actually accomplished. The purpose of planners is to reduce the stress that comes with thinking that we can’t possibly accomplish everything we need to do in a given day.
+                Without a planner to assist in the scheduling of tasks, we can feel overwhelmed.  The purpose of planners is to reduce the stress that comes with thinking that we can’t possibly achieve everything.
                 </p>
             </li> <li className={css.listItem}>
                 <h4 className={css.listItemTitle}>
                 Using a Task Planner Frees Up Time for Creative Endeavors
                 </h4>
                 <p className={css.listItemText}>
-                We’ve noticed something incredible with those who proactively use planners: they have more time to focus on their hobbies and creative endeavors. When you outline what you need to do on a given day, you give yourself the freedom to do what you want to do.
+                We’ve noticed something incredible with those who proactively use planners: they have more time to focus on their hobbies and creative endeavors. When you outline what you need to do on a given day, you give yourself the freedom to do what you want to do.When we block out our time it is much easier to see how much we have actually accomplished.
                 </p>
             </li>
         </ul>

@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .container {
@@ -26,7 +27,7 @@
     background-color: transparent;
     border-radius: 10px;
     color: aliceblue;
-    box-shadow: 6px 4px 26px 1px rgb(201, 178, 0);
+ 
 
 }
 
@@ -37,7 +38,7 @@
 .labelContainer {
     width: 98%;
 }
-
+/* 
 .formBtn {
     width: 112px;
     height: 44px;
@@ -46,4 +47,4 @@
     background-color: rgb(99, 182, 255);
     color: white;
     opacity: 0.9;
-}
+} */

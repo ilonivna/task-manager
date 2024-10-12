@@ -1,4 +1,10 @@
 
 .header {
     padding: 12px;
+    margin-bottom: 56px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
 }

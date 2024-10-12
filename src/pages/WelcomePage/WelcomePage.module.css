@@ -1,0 +1,12 @@
+.title {
+margin-top: 48px;
+margin-bottom: 48px;
+text-align: center;
+}
+
+.subtitle {
+font-style: italic;
+margin-bottom: 48px;
+text-align: center;
+font-size: 1.5em;
+}

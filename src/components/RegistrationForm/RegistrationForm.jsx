@@ -5,6 +5,7 @@ import { register } from "../../redux/auth/operations";
 import toast, { Toaster } from 'react-hot-toast';
 import { useId } from "react";
 import css from "./RegistrationForm.module.css";
+import { Button } from "../Button/Button";
 
 
 export default function RegistrationForm() {
@@ -48,18 +49,18 @@ export default function RegistrationForm() {
                     <div className={css.container}>
                         <label className={css.labelContainer} htmlFor={nameFieldId}>Name</label>
                         <Field className={css.input} type="text" name="name" id={nameFieldId}></Field>
-                        <ErrorMessage className={caches.error} name="name" component="span"/>
+                        <ErrorMessage className={css.error} name="name" component="span"/>
                     </div>
                     <div className={css.container}>
                         <label className={css.labelContainer} htmlFor={emailFieldId}>Email</label>
                         <Field className={css.input} type="email" name="email" id={emailFieldId}></Field>
-                        <ErrorMessage className={caches.error} name="email" component="span"/>
+                        <ErrorMessage className={css.error} name="email" component="span"/>
                     </div>
 
                     <div className={css.container}>
                         <label className={css.labelContainer} htmlFor={passwordFieldId}>Password</label>
                         <Field className={css.input} type="password" name="password" id={passwordFieldId}></Field>
-                        <ErrorMessage className={caches.error} name="password" component="span"/>
+                        <ErrorMessage className={css.error} name="password" component="span"/>
                     </div>
 
                     <button className={css.formBtn} type="submit">Register</button>

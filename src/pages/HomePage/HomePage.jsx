@@ -26,8 +26,8 @@ useEffect(() => {
                 <TaskForm />
                 <StatusFilter/>
                 {isLoading && <Loader/>}
-                {visibleTasks.length > 0 ? <p>Tasks were fetched for you</p> : <p>No tasks yet, start by adding a few!</p>}
-                <TaskList/>
+                {visibleTasks.length === 0 ? <p>No tasks yet, start by adding a few!</p> :                 <TaskList/>}
+
         </div>
     )
 }

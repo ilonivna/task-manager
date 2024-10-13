@@ -36,7 +36,7 @@ const tasksSlice = createSlice({
         .addCase(deleteTask.fulfilled, (state, action) => {
             state.isLoading = false;
             state.error = null;
-            state.items = state.items.filter((item) => item.id !== action.payload)
+            state.items = state.items.filter((item) => item.id !== action.payload.id)
         })
         .addCase(deleteTask.rejected, handleRejected)
         .addCase(toggleCompleted.pending, handlePending)

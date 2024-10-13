@@ -13,7 +13,7 @@ export const Task = ({ task }) => {
         dispatch(deleteTask(task.id))};
 
     const handleToggle = () => {
-    dispatch(toggleCompleted(task))
+        dispatch(toggleCompleted(task))
      }
 
     return (

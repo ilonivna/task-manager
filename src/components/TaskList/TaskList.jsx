@@ -8,7 +8,7 @@ export const TaskList = () => {
 
     return (
         <div className={css.container}>
-        <h4>Your task list</h4>
+
         <ul className={css.list}>
             {tasks.map((task) => (
                 <li className={css.listItem} key={task.id}>
